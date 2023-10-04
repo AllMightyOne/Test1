@@ -1,1 +1,12 @@
-This is test file.
+#include <iostream>
+
+// A simple function that prints a message
+void PrintMessage() {
+    std::cout << "Hello, World!" << std::endl;
+}
+
+int main() {
+    // Call the function to print the message
+    PrintMessage();
+    return 0;
+}
